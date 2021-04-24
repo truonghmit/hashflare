@@ -1,0 +1,87 @@
+    .hidden{
+        display: none !important;
+    }
+  .tool-social-right .rounded-circle{
+  	overflow: visible !important;
+  }
+  .tool-social-right .morestats, .tool-social-right .btbg{
+	-moz-transition: 0.1s 0.15s;
+    -o-transition: 0.1s 0.15s;
+    -webkit-transition: 0.15s;
+    -webkit-transition-delay: 0.15s;
+    -webkit-transition: 0.1s 0.15s;
+    transition: 0.1s 0.15s;
+  }
+  .tool-social-right .salesdesk-widget-button-text::after {
+    content: "";
+    top: 9px;
+    right: -7px;
+    position: absolute;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid rgba(0,0,0,.5);
+  }@media (min-width: 992px) {
+    nav.fixed-top:not(.sticky-top):not(.show-menu) .bg-wrap {
+        opacity: 0 !important;
+    }
+}#header-text-img-8 .bg-wrap {
+    background: linear-gradient(to bottom, #e2edfe, #f5f8fd);
+}
+@media(min-width: 1230px){
+    #header-text-img-8 h1 {
+        font-size: 48px !important;
+    }
+}
+#desc-halfbg-text-9 .bg {
+	background-repeat: No-repeat;
+	background-size: cover;
+	opacity: 0.69;	background-image: url('../images/background/home_landing2_sectionbg11.png');
+}
+.sectionLoiIch{
+        background-repeat: No-repeat;
+        background-size: cover; 
+        background-image: url('../images/background/home_landing2_sectionbg11.png');
+}
+#benefits-3col-21 .bg {
+    background-repeat: No-repeat;
+    background-size: 300px auto;
+    background-position: left bottom;
+    background-image: url(../images/887/bgeventslimweb003.png);
+}#blog-4col-dynamic-more-2 row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+#blog-4col-dynamic-more-2 div[class*="col-"]{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#blog-4col-dynamic-more-2 .blog-item .item-img {
+    -webkit-transform: none;
+    transform: none;
+}
+#blog-4col-dynamic-more-2 .blog-item .gallery-style-1.border, #blog-4col-dynamic-more-2 .blog-item .gallery-style-2.border{
+    height: 100%;
+    background: white;
+}
+#blog-4col-dynamic-more-2 .blog-item .title{
+    font-weight: 600;
+}
+#blog-4col-dynamic-more-2 .blog-item .item-img {
+    height: 180px;
+    object-fit: cover;
+}
+#blog-4col-dynamic-more-2 .gallery-item:hover img{
+    opacity: 0.5;
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s ease 0s;
+  }#blog-list-dynamic .blog-item .item-img {
+    -webkit-transform: none;
+    transform: none;
+}
+#blog-list-dynamic .blog-item h4.title{
+    font-weight: 600;
+}
+#blog-list-dynamic .blog-item .item-img {
+    height: 200px;
+    object-fit: cover;
+}
